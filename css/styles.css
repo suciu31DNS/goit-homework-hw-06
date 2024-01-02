@@ -556,7 +556,6 @@ h2 {
 
 .footer {
   background-color: var(--hero-color-navy);
-  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -564,13 +563,13 @@ h2 {
   height: 312px;
   display: flex;
   align-items: baseline;
+  margin: 0 auto;
 }
 
 .footer-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 156px;
   margin-right: 120px;
 }
 
@@ -593,9 +592,9 @@ h2 {
 
 .social-media-footer {
   display: flex;
-  flex-direction: column;
   padding-top: 100px;
-
+  padding-right: 158px;
+  gap: 80px;
 }
 
 .social-media-pharagraph {
@@ -774,6 +773,7 @@ h2 {
 }
 
 /* Subscribe Form */
+
 .form-pharagraph {
   margin-bottom: 16px;
   font-weight: 500;
@@ -827,6 +827,7 @@ h2 {
   background-color: #4D5AE5;
   border: none;
   border-radius: 4px;
+  margin-left: 24px;
 }
 
 .form-icon {
@@ -915,7 +916,7 @@ h2 {
 }
 
 .modal-name {
-  margin-bottom: 8px;
+  margin: 0 24px 8px 24px;
 }
 
 .label-name {
@@ -978,7 +979,7 @@ h2 {
 }
 
 .check-box {
-  margin-bottom: 24px;
+  margin: 0 24px 24px 24px;
 }
 
 /* .check-box-input {
@@ -1025,4 +1026,5 @@ h2 {
   border: none;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin: auto;
 }
