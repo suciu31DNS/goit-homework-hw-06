@@ -916,9 +916,9 @@ h2 {
   margin-top: 72px;
 }
 
-/* .modal-name {
-  margin: 0 24px 8px 24px;
-} */
+.modal-name {
+  margin-bottom: 8px;
+}
 
 .label-name {
   font-size: 12px;
