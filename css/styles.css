@@ -917,7 +917,7 @@ h2 {
 }
 
 .modal-name {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .label-name {
@@ -988,9 +988,9 @@ h2 {
   visibility: hidden;
 }
 
-.check-box-input:checked+.terms-conditions span:first-child {
-  background-color: var(--focus-hover-color);
+.check-box-input:checked .terms-conditions span:first-child {
   border: none;
+  background-color: var(--focus-hover-color);
   fill: var(--nu-color);
 }
 
@@ -1008,7 +1008,7 @@ h2 {
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  transition: background-colour 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-colour 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-flex;
   align-items: center;
   justify-content: center;
