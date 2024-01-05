@@ -920,6 +920,10 @@ h2 {
   margin-bottom: 8px;
 }
 
+.modal-comment {
+  margin-bottom: 16px;
+}
+
 .label-name {
   font-size: 12px;
   line-height: 1.17;
@@ -988,7 +992,7 @@ h2 {
   visibility: hidden;
 }
 
-.check-box-input:checked .terms-conditions span:first-child {
+.check-box-input:checked+.terms-conditions span:first-child {
   border: none;
   background-color: var(--focus-hover-color);
   fill: var(--nu-color);
