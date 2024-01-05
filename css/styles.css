@@ -984,9 +984,15 @@ h2 {
   margin: 0 24px 24px 24px;
 }
 
-/* .check-box-input {
+.check-box-input {
   visibility: hidden;
-} */
+}
+
+.check-box-input:checked+.terms-conditions span:first-child {
+  background-color: var(--focus-hover-color);
+  border: none;
+  fill: var(--nu-color);
+}
 
 .terms-conditions {
   display: block;
