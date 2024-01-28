@@ -1168,6 +1168,10 @@ h2 {
     padding-right: 136px;
   }
 
+  .customers-content {
+    margin-bottom: 96px;
+  }
+
   .form-input {
     width: 264px;
   }
@@ -1192,8 +1196,12 @@ h2 {
 
   .customers-list {
     gap: 24px;
-    padding: 96px 0;
+    padding: 0;
     justify-content: center;
+  }
+
+  .customers-title {
+    margin-bottom: 72px;
   }
 
   .footer-link {
@@ -1300,9 +1308,9 @@ h2 {
     width: 264px;
   }
 
-  .header-navigation {
+  /* .header-navigation {
     padding-left: 156px;
-  }
+  } */
 
 
   .section-title {
@@ -1364,9 +1372,9 @@ h2 {
     gap: 120px;
   }
 
-  .customers-list {
+  /* .customers-list {
     padding: 120px;
-  }
+  } */
 
   .description-list {
     gap: 24px;
