@@ -1395,7 +1395,9 @@ h2 {
     justify-content: center;
   }
 
-
+  header-content {
+    justify-content: space-between;
+  }
 
 
 }
