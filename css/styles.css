@@ -74,6 +74,7 @@ h2 {
 .image-container {
   position: relative;
   overflow: hidden;
+
 }
 
 .image-container:hover .pharagraf-content {
@@ -105,7 +106,7 @@ h2 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--nu-color);
-  padding: 40px 32px;
+  /* padding: 40px 32px; */
   background-color: var(--logo-button-blue-color);
   width: 100%;
   height: 100%;
@@ -756,13 +757,17 @@ h2 {
 }
 
 .nav-section-list {
-  justify-content: center;
-  padding: 96px 0 86px 0;
+  /* padding: 96px 0 86px 0; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
   margin: 0;
+  padding: var(--padding-vertical-global);
 }
 
 
 .content-section-list {
+  display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
@@ -771,7 +776,7 @@ h2 {
 }
 
 .content-section-list-element {
-  width: calc((100% - 48px) / 3);
+  /* width: calc((100% - 48px) / 3); */
 
 }
 
@@ -785,10 +790,14 @@ h2 {
 
 
 .content-section-container {
-  padding: 32px 0;
+  /* padding: 32px 0; */
   border: 1px solid #e7e9fc;
   border-top: none;
   width: 360px;
+  text-align: left;
+  padding-left: 16px;
+
+
 }
 
 
@@ -799,7 +808,8 @@ h2 {
   letter-spacing: 0.02em;
   color: var(--hero-color-navy);
   margin-bottom: 8px;
-  padding: 0 16px;
+  /* padding: 0 16px; */
+
 
 }
 
@@ -809,7 +819,7 @@ h2 {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding: 0 16px;
+  /* padding: 0 16px; */
 }
 
 /* Subscribe Form */
@@ -1129,9 +1139,13 @@ h2 {
   }
 
   .navigation-list {
-    padding: 0;
+    padding: 120px;
     display: flex;
     gap: 40px;
+  }
+
+  .nav-section-list {
+    justify-content: center;
   }
 
   .header-content {
@@ -1244,7 +1258,7 @@ h2 {
 
   .navigation-list {
     padding: 0;
-    display: flex;
+
   }
 
   .section-description-subtitle {
@@ -1278,7 +1292,7 @@ h2 {
   }
 
   .address-list {
-    margin-left: 156px;
+    margin-left: 332px;
 
   }
 
@@ -1290,14 +1304,6 @@ h2 {
     padding-left: 156px;
   }
 
-  .adress-section {
-
-    padding-right: 156px;
-  }
-
-  .address-list {
-    margin: 0;
-  }
 
   .section-title {
     font-size: 56px;
@@ -1377,6 +1383,9 @@ h2 {
     align-items: normal;
   }
 
+  .nav-section-list {
+    justify-content: center;
+  }
 
 
 
